@@ -29,3 +29,7 @@ Contribuições são super bem-vindas! Sinta-se à vontade para abrir **issues**
 ## Licença 📝
 
 Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+Você pode baixar a versão mais recente da extensão **LexiFocus** aqui:  
+➡️ [Download da Release v1.0.0](https://github.com/TaisDF/bootcamp2-chrome-ext-taisdf/releases/tag/v1.0.0)
+
