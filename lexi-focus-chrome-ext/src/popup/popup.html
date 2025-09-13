@@ -5,37 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LexiFocus</title>
     <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <header class="header">
         <h1 class="title">LexiFocus</h1>
-        <p class="subtitle">Sua leitura mais fácil e focada.</p>
     </header>
 
     <main class="main-content">
 
-        <section class="feature-section">
-            <h2 class="section-title">Destaque de Leitura</h2>
-            <div class="toggle-switch">
-                <input type="checkbox" id="highlight-toggle" class="toggle-input">
-                <label for="highlight-toggle" class="toggle-label"></label>
-            </div>
-        </section>
-
-        <section class="feature-section">
+        <section class="feature-section-tema">
             <h2 class="section-title">Modo de Cores</h2>
-            <div class="color-mode-options">
-                <button class="mode-button light-mode" id="light-mode-btn">Modo Claro</button>
-                <button class="mode-button dark-mode" id="dark-mode-btn">Modo Escuro</button>
-            </div>
+                <button class="theme-toggle">
+                    <img src="src/images/sun.png" alt="Tema claro" />
+                </button>
         </section>
 
-        <section class="feature-section">
+        <section class="feature-section-texto">
             <h2 class="section-title">Personalização de Texto</h2>
-            <p class="description">Escolha a fonte mais agradável:</p>
             <div class="font-options">
-                <button class="font-button" data-font="OpenDyslexic" id="opendyslexic-btn">OpenDyslexic</button>
+                <button class="font-button" data-font="Lexend" id="lexend-btn">Lexend</button>
                 <button class="font-button" data-font="Atkinson Hyperlegible" id="atkinson-btn">Atkinson Hyperlegible</button>
             </div>
         </section>
